@@ -1,0 +1,38 @@
+body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f1f1f1;
+}
+
+.margin_bottom{
+  margin-bottom: 15px;
+}
+
+
+.edit_button, .delete_button{
+  position: absolute;
+  z-index: 99;
+  border: none;
+}
+
+.edit_button{
+  left: 30;
+}
+
+.delete_button{
+  right: 30;
+}
+
+.margin_top{
+  margin-left: 10px;
+  width: 630px;
+  margin-top: 15px;
+}
+
+.disable_link{
+  text-decoration: none;
+}
+
+.disable_link:hover{
+  text-decoration: none;
+}
